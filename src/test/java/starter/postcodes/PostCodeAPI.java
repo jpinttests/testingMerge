@@ -18,9 +18,11 @@ public class PostCodeAPI {
     ValidatableResponse response;
     @Step("Get location by postcode {0} in country {1}")
     public void fetchLocationByPostCodeAndCountry() {
-       response = SerenityRest.given().log().all()
+        System.out.println("hello");
+        response = SerenityRest.given().log().all()
                 .get(enco)
                .then().log().all();
+        
     }
 
 
