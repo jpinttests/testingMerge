@@ -10,4 +10,10 @@ import org.junit.runner.RunWith;
         plugin = {"pretty"},
         features = "classpath:features"
 )
-public class CucumberTestSuite {}
+public class CucumberTestSuite {
+    System.out.println("hello");
+    System.out.println("Line 1 added");
+    System.out.println("hello");
+
+
+}
